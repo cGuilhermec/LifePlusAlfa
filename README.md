@@ -7,7 +7,7 @@
 
   <h1  style="display: flex; justify-content: center; align-items: center; text-align: center; border-bottom: none; margin-bottom: 0;">
 
-  <img  style="vertical-align: middle;"  alt=""  height="40"  width="40"  src="./documentation/images/favicon.ico"> LifePlus-Visona-Documentação
+  <img  style="vertical-align: middle;"  alt=""  height="40"  width="40"  src="./documentation/images/favicon.ico"> LifePlus Documentação
 
   </h1>
 
@@ -18,8 +18,6 @@
   </div>
 
 </div>
-
-  
 
 <br>
 
@@ -32,8 +30,6 @@
 <a  href=#useStories> Use Stories</a>
 
 </p>
-
-  
 
 <span  id="sobre">
 
@@ -108,9 +104,9 @@ Cada entrega foi realizada a partir da data definida com o cliente, com o relat�
 
 | Sprint | Data Entrega | Status | Relatórios |
 | ------ | -------------------- | ------ | --------- |
-| 1 | 📅 17/09/2024 | :heavy_check_mark: Finalizada | [📍 Ver Relatório](./Sprint01.md ) |
+| 1 | 📅 17/09/2024 | :heavy_check_mark: Finalizada | [📍 Ver Relatório](./Sprint01.md) |
 | 2 | 📅 08/10/2024 | :heavy_check_mark: Finalizada | [📍 Ver Relatório](./Sprint02.md ) |
-| 3 | 📅 08/11/2024 | :heavy_check_mark: Finalizada | [📍 Ver Relatório](./Sprint03.md ) |
+| 3 | 📅 08/11/2024 | :x:Em Progresso| [📍 Ver Relatório](./Sprint03.md ) |
 
 </div>
 
@@ -118,7 +114,6 @@ Cada entrega foi realizada a partir da data definida com o cliente, com o relat�
 
 Legenda:  :heavy_check_mark: **Finalizada** 🚧 **Em Progresso**:x: **Não iniciado**
 
-  
 
 <br>
 
@@ -132,27 +127,26 @@ Legenda:  :heavy_check_mark: **Finalizada** 🚧 **Em Progresso**:x: **Não inic
 
 <div>
 
-<span  id="backlogs">
+<span  id="backlogs"></span>
 
-<h2>
 
-📑 Product Backlog :
+<h2>🧾Backlog do Produto</h2>
+<!--IMAGEM DO BACKLOG-->
 
-</h2>
+![backlog](./documentation/images/backlog.png)
 
-<div  align="center">
-
-<img  style="vertical-align: middle"  alt="Product Backlog"  height="850"  width="1150"  src="">
 
 </div>
 
-</div>
+<div>
+<span  id="useStories"></span>
+<h2>👤User Stories</h2>
+<!--IMAGEM DO USERSTORIES-->
 
-  
+![userStorie](./documentation/images/userStories.png)
 
-<br>
+</div>  
 
-  
 
 ##### [🔝 Voltar ao topo ](#topo)
 
@@ -164,144 +158,27 @@ Legenda:  :heavy_check_mark: **Finalizada** 🚧 **Em Progresso**:x: **Não inic
 <h2>
 
 🧾 Requisitos da aplicação:
-
-</h2>
-
-Acesse o Desafio e Requistos em pdf, [clicando aqui!](./documentation/Desafio%203DSM%20-%202024.pdf)
+  
+  Acesse o Desafio e Requistos em pdf, [clicando aqui!](./documentation/Desafio%203DSM%20-%202024.pdf)
+  
 
   
 
-<h3>Requisitos funcionais :</h3>
-
   
 
--  **RF01 - Cadastro de Usuário:**
 
-- O sistema deve permitir o cadastro de usuários com informações básicas (nome, email, senha, peso, meta de calorias, etc.).
 
-  
 
--  **RF02 - Cadastro de Comidas:**
 
-- O usuário deve ser capaz de cadastrar alimentos, informando nome, quantidade (porção), calorias, e outros nutrientes relevantes.
 
-  
 
--  **RF03 - Definição de Meta Calórica Diária:**
 
-- O usuário deve poder definir uma meta calórica diária a ser ingerida.
+
+
 
   
-
--  **RF04 - Registro de Calorias Consumidas:**
-
-- O usuário deve poder registrar as calorias ingeridas durante o dia, categorizadas por refeição (café da manhã, almoço, jantar, lanche, etc.).
-
-  
-
--  **RF05 - Cadastro de Refeições:**
-
-- O sistema deve permitir o cadastro de refeições personalizadas, além dos padrões já cadastrados (café da manhã, almoço, jantar, lanche).
-
-  
-
--  **RF06 - Histórico de Peso:**
-
-- O usuário deve poder registrar seu peso periodicamente para acompanhamento.
-
-  
-
--  **RF07 - Visualização de Histórico:**
-
-- O usuário deve poder visualizar um histórico de calorias ingeridas por dia e por refeição, além do histórico de peso ao longo do tempo.
-
-  
-
--  **RF08 - Relatórios:**
-
-- O sistema deve gerar um relatório geral contendo informações sobre calorias ingeridas, metas atingidas, e variações de peso. O relatório deve estar disponível para exportação em formato PDF.
-
-  
-
-<h3>Requisitos não funcionais :</h3>
-
-  
-
--  **RNF01 - Documentação:**
-
-- A documentação do projeto deve ser mantida no GitHub, incluindo o repositório do código-fonte, descrição do projeto, backlog do produto, e prints das telas ou links para o portal.
-
-  
-
--  **RNF02 - Gerenciamento de Projetos:**
-
-- Utilizar o Trello para gerenciar o backlog do produto e preferencialmente fazer a integração entre Trello e GitHub.
-
-  
-
--  **RNF03 - Tecnologia Back-end:**
-
-- O back-end da aplicação deve ser desenvolvido utilizando Node.js e TypeScript.
-
-  
-
--  **RNF04 - Tecnologia Front-end:**
-
-- O front-end deve ser desenvolvido utilizando React com TypeScript, HTML, e CSS.
-
-  
-
--  **RNF05 - Banco de Dados:**
-
-- Utilizar MongoDB como Sistema de Gerenciamento de Banco de Dados (SGBD).
-
-  
-
--  **RNF06 - Autenticação de Usuário:**
-
-- Implementar um sistema de autenticação que garanta a segurança dos dados dos usuários, com criptografia de senhas.
-
-  
-
--  **RNF07 - Performance:**
-
-- A aplicação deve ser otimizada para fornecer uma resposta rápida e eficiente, mesmo com uma grande quantidade de dados de usuários.
-
-  
-
-</div>
-
-  
-
 <br>
-
   
-
-##### [🔝 Voltar ao topo ](#topo)
-
-  
-
-<div>
-
-<span  id="useStories">
-
-<h2>
-
-Use Stories :
-
-</h2>
-
-<div  align="center">
-
-<img  style="vertical-align: middle"  alt="User Stories"  height=""  width=""  src="">
-
-</div>
-
-</div>
-
-  
-
-<br>
 
   
 
@@ -310,7 +187,7 @@ Use Stories :
   
   
 
-<div>
+
 
 <h2>
 
@@ -322,7 +199,7 @@ Use Stories :
 
 </h2>
 
-</div>  
+
 
 <div align="center">
 <br>
@@ -385,8 +262,7 @@ Use Stories :
 | Product Owner | Gustavo Carvalho | [<img align="center" alt="Linkedin" height="30" width="30" src="./documentation/images/icon/linkedin.webp">](https://www.linkedin.com/in/gustavo-carvalho-73663514a/) [<img align="center" alt="Github" height="30" width="30" src="./documentation/images/icon/github.svg">](https://github.com/xgustavu) |
 | Scrum Master | Guilherme Carvalho | [<img align="center" alt="Linkedin" height="30" width="30" src="./documentation/images/icon/linkedin.webp">](https://www.linkedin.com/in/guilherme-carvalho-1b8b08156/) [<img align="center" alt="Github" height="30" width="30" src="./documentation/images/icon/github.svg">](https://github.com/cGuilhermec) |
 | Dev Team | Caio Cesar Silva Azevedo dos Reis | [<img align="center" alt="Linkedin" height="30" width="30" src="./documentation/images/icon/linkedin.webp">](https://www.linkedin.com/in/caio-azevedo-dev/) [<img align="center" alt="Github" height="30" width="30" src="./documentation/images/icon/github.svg">](https://github.com/CaiooAzevedoo) |
-| Dev Team | Lucas Braz Dias | [<img align="center" alt="Linkedin" height="30" width="30" src="./documentation/images/icon/linkedin.webp">]() [<img align="center" alt="Github" height="30" width="30" src="./documentation/images/icon/github.svg">](https://github.com/lucasbdias) |
-
+| Dev Team | Carlos Roberto Torres dos Santos | [<img align="center" alt="Linkedin" height="30" width="30" src="./documentation/images/icon/linkedin.webp">](https://www.linkedin.com/in/carlos-torres-638b13210/) [<img align="center" alt="Github" height="30" width="30" src="./documentation/images/icon/github.svg">](https://github.com/CarlosTorres2305) |
   
   
 
